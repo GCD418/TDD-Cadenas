@@ -1,8 +1,7 @@
-import fs from "fs";
-import { execSync, exec } from "child_process";
-import { tmpdir } from "os";
-import path from "path";
-import crypto from "crypto";
+import fs from 'fs';
+import { execSync } from 'child_process';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 const DATA_FILE = "script/commit-history.json";
 const HEAD_MARKER = "HEAD";
@@ -106,65 +105,25 @@ function getCommitInfo(sha) {
 
   let conclusion = "neutral"; // valor por defecto
 
-  if (fs.existsSync("package.json")) {
-    const tempDir = tmpdir();
-    const randomId = crypto.randomBytes(8).toString("hex");
-    const outputPath = path.join(tempDir, `jest-results-${randomId}.json`);
-
+  // Leer resultados de la última ejecución de tests desde tdd_log.json
+  const tddLogPath = path.join(path.dirname(fileURLToPath(import.meta.url)), 'tdd_log.json');
+  if (fs.existsSync(tddLogPath)) {
     try {
-      try {
-        execSync(
-          `npx jest --coverage --json --outputFile=${outputPath} --passWithNoTests`,
-          {
-            stdio: "pipe",
+      const tddLog = JSON.parse(fs.readFileSync(tddLogPath, 'utf8'));
+      // Buscar la última entrada de ejecución de tests (tiene numTotalTests, no commitId)
+      for (let i = tddLog.length - 1; i >= 0; i--) {
+        const entry = tddLog[i];
+        if (entry.numTotalTests !== undefined) {
+          testCount = entry.numTotalTests || 0;
+          failedTests = entry.failedTests || 0;
+          if (testCount > 0) {
+            conclusion = failedTests > 0 ? 'failure' : 'success';
           }
-        );
-      } catch (jestError) {}
-
-      // Procesar los resultados si el archivo existe
-      if (fs.existsSync(outputPath)) {
-        const jestResults = JSON.parse(fs.readFileSync(outputPath, "utf8"));
-        testCount = jestResults.numTotalTests || 0;
-        failedTests = jestResults.numFailedTests || 0;
-
-        // Calcular cobertura si existe
-        if (jestResults.coverageMap) {
-          const coverageMap = jestResults.coverageMap;
-          let covered = 0,
-            total = 0;
-
-          for (const file of Object.values(coverageMap)) {
-            const s = file.s;
-            const fileTotal = Object.keys(s).length;
-            const fileCovered = Object.values(s).filter((v) => v > 0).length;
-            total += fileTotal;
-            covered += fileCovered;
-          }
-
-          if (total > 0) {
-            coverage = (covered / total) * 100;
-            coverage = Math.round(coverage * 100) / 100;
-          }
+          break;
         }
-
-        // Establecer conclusión según pruebas
-        if (testCount > 0) {
-          conclusion = failedTests > 0 ? "failure" : "success";
-        }
-
-        // Limpieza del archivo temporal
-        try {
-          fs.unlinkSync(outputPath);
-        } catch (unlinkError) {
-          console.warn(
-            `No se pudo eliminar el archivo temporal: ${unlinkError.message}`
-          );
-        }
-      } else {
-        console.warn("El archivo de resultados de Jest no fue creado");
       }
     } catch (error) {
-      console.warn("Error al procesar resultados de pruebas:", error.message);
+      console.warn('Error al leer tdd_log.json:', error.message);
     }
   }
 

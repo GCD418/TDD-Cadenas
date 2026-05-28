@@ -136,9 +136,15 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b8a290c6e4ed40e26c79976b090380ba49574970",
     "commitName": "feat: ignore numbers greater than 1000",
     "commitTimestamp": 1779937581279,
     "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: read test results from tdd_log.json instead of running jest in hook",
+    "commitTimestamp": 1779938751759,
+    "testId": 9
   }
 ]

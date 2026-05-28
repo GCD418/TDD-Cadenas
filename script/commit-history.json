@@ -152,12 +152,12 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "b8a290c6e4ed40e26c79976b090380ba49574970",
     "author": "gabriel",
     "commit": {
       "date": "2026-05-28T03:06:21.000Z",
       "message": "feat: ignore numbers greater than 1000",
-      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/b8a290c6e4ed40e26c79976b090380ba49574970"
     },
     "stats": {
       "total": 9,
@@ -169,5 +169,24 @@
     "test_count": 0,
     "failed_tests": 0,
     "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "gabriel",
+    "commit": {
+      "date": "2026-05-28T03:25:51.000Z",
+      "message": "fix: read test results from tdd_log.json instead of running jest in hook",
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 77,
+      "additions": 18,
+      "deletions": 59,
+      "date": "2026-05-28"
+    },
+    "coverage": 0,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
