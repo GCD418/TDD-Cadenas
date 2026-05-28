@@ -8,9 +8,23 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "530e951dd44f168694c24abde57590bc02499590",
     "commitName": "chore: first run",
     "commitTimestamp": 1779934921761,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1779935692175,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: handle empty string returning zero",
+    "commitTimestamp": 1779935711703,
+    "testId": 1
   }
 ]
