@@ -38,17 +38,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "df1c3ac69f73fb9c9d46b9cb10f499e3188bc07a",
     "author": "gabriel",
     "commit": {
       "date": "2026-05-28T02:38:09.000Z",
       "message": "feat: return the number for a single number string",
-      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/df1c3ac69f73fb9c9d46b9cb10f499e3188bc07a"
     },
     "stats": {
       "total": 7,
       "additions": 6,
       "deletions": 1,
+      "date": "2026-05-28"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "gabriel",
+    "commit": {
+      "date": "2026-05-28T02:39:27.000Z",
+      "message": "feat: add two comma-separated numbers",
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
       "date": "2026-05-28"
     },
     "coverage": 0,

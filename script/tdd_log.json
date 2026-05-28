@@ -28,9 +28,15 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "df1c3ac69f73fb9c9d46b9cb10f499e3188bc07a",
     "commitName": "feat: return the number for a single number string",
     "commitTimestamp": 1779935889981,
     "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: add two comma-separated numbers",
+    "commitTimestamp": 1779935967684,
+    "testId": 3
   }
 ]
