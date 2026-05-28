@@ -20,4 +20,12 @@ describe('Calculadora de Cadenas', () => {
   it('debe aceptar el guion como separador', () => {
     expect(sumarCadena('1-2,3')).toEqual(6);
   });
+
+  it('debe usar un delimitador personalizado', () => {
+    expect(sumarCadena('//[;] 6;7;4')).toEqual(17);
+  });
+
+  it('debe combinar delimitador personalizado con comas y guiones', () => {
+    expect(sumarCadena('//[;] 6,3-2;1')).toEqual(12);
+  });
 });

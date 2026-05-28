@@ -95,16 +95,35 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "1e9cd8b7a25776d61e49a45c3e0fb7e0ae597912",
     "author": "gabriel",
     "commit": {
       "date": "2026-05-28T02:45:53.000Z",
       "message": "feat: accept dash as separator alongside comma",
-      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/1e9cd8b7a25776d61e49a45c3e0fb7e0ae597912"
     },
     "stats": {
       "total": 6,
       "additions": 5,
+      "deletions": 1,
+      "date": "2026-05-28"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "gabriel",
+    "commit": {
+      "date": "2026-05-28T02:48:05.000Z",
+      "message": "feat: support custom single-character delimiter",
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 20,
       "deletions": 1,
       "date": "2026-05-28"
     },

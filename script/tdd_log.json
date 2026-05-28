@@ -86,9 +86,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1e9cd8b7a25776d61e49a45c3e0fb7e0ae597912",
     "commitName": "feat: accept dash as separator alongside comma",
     "commitTimestamp": 1779936353489,
     "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 2,
+    "numTotalTests": 8,
+    "timestamp": 1779936377480,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1779936400675,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: support custom single-character delimiter",
+    "commitTimestamp": 1779936486035,
+    "testId": 6
   }
 ]
