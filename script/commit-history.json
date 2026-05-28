@@ -19,16 +19,35 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "14d903d7d3c3e39794602550c79cc76c1ed2c611",
     "author": "gabriel",
     "commit": {
       "date": "2026-05-28T02:35:11.000Z",
       "message": "feat: handle empty string returning zero",
-      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/14d903d7d3c3e39794602550c79cc76c1ed2c611"
     },
     "stats": {
       "total": 15,
       "additions": 14,
+      "deletions": 1,
+      "date": "2026-05-28"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "gabriel",
+    "commit": {
+      "date": "2026-05-28T02:38:09.000Z",
+      "message": "feat: return the number for a single number string",
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
       "deletions": 1,
       "date": "2026-05-28"
     },

@@ -22,9 +22,15 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "14d903d7d3c3e39794602550c79cc76c1ed2c611",
     "commitName": "feat: handle empty string returning zero",
     "commitTimestamp": 1779935711703,
     "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: return the number for a single number string",
+    "commitTimestamp": 1779935889981,
+    "testId": 2
   }
 ]
