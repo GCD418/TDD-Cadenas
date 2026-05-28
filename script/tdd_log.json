@@ -172,9 +172,31 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7875160957aa48fcf3909dadbc6a2c48f89d8f8b",
     "commitName": "feat: support multi-character delimiters",
     "commitTimestamp": 1779938910293,
     "testId": 10
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1779939144680,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1779939201459,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: support multiple delimiters",
+    "commitTimestamp": 1779939261463,
+    "testId": 11
   }
 ]

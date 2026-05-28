@@ -36,4 +36,8 @@ describe('Calculadora de Cadenas', () => {
   it('debe aceptar un delimitador de cualquier longitud', () => {
     expect(sumarCadena('//[***] 1***2***3')).toEqual(6);
   });
+
+  it('debe aceptar multiples delimitadores', () => {
+    expect(sumarCadena('//[*][%] 1*2%3,7-9')).toEqual(22);
+  });
 });

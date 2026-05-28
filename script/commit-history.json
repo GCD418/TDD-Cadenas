@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7875160957aa48fcf3909dadbc6a2c48f89d8f8b",
     "author": "gabriel",
     "commit": {
       "date": "2026-05-28T03:28:30.000Z",
       "message": "feat: support multi-character delimiters",
-      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/7875160957aa48fcf3909dadbc6a2c48f89d8f8b"
     },
     "stats": {
       "total": 9,
@@ -205,6 +205,25 @@
     },
     "coverage": 0,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "gabriel",
+    "commit": {
+      "date": "2026-05-28T03:34:21.000Z",
+      "message": "feat: support multiple delimiters",
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 15,
+      "deletions": 4,
+      "date": "2026-05-28"
+    },
+    "coverage": 0,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
