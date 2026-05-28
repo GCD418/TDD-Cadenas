@@ -12,7 +12,10 @@ function sumarCadena(cadena) {
   }
 
   const partes = numeros.split(separadores);
-  return partes.reduce((suma, num) => suma + parseInt(num), 0);
+  return partes.reduce((suma, num) => {
+    const n = parseInt(num);
+    return n > 1000 ? suma : suma + n;
+  }, 0);
 }
 
 export default sumarCadena;

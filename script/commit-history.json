@@ -133,17 +133,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "d7ef1d0193320c8e05237e8187c3461257a6e86d",
     "author": "gabriel",
     "commit": {
       "date": "2026-05-28T02:57:43.000Z",
       "message": "chore: trying to fix bad graphics",
-      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/d7ef1d0193320c8e05237e8187c3461257a6e86d"
     },
     "stats": {
       "total": 0,
       "additions": 0,
       "deletions": 0,
+      "date": "2026-05-28"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "gabriel",
+    "commit": {
+      "date": "2026-05-28T03:06:21.000Z",
+      "message": "feat: ignore numbers greater than 1000",
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
       "date": "2026-05-28"
     },
     "coverage": 0,

@@ -122,9 +122,23 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d7ef1d0193320c8e05237e8187c3461257a6e86d",
     "commitName": "chore: trying to fix bad graphics",
     "commitTimestamp": 1779937063885,
     "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1779937560971,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ignore numbers greater than 1000",
+    "commitTimestamp": 1779937581279,
+    "testId": 8
   }
 ]
