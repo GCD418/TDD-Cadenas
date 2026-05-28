@@ -34,9 +34,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1be36522a894a1bc67d274927c8530dc620be43c",
     "commitName": "feat: add two comma-separated numbers",
     "commitTimestamp": 1779935967684,
     "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1779936055605,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1779936140424,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: sum multiple comma-separated numbers",
+    "commitTimestamp": 1779936156849,
+    "testId": 4
   }
 ]

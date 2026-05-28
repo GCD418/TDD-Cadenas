@@ -57,17 +57,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "1be36522a894a1bc67d274927c8530dc620be43c",
     "author": "gabriel",
     "commit": {
       "date": "2026-05-28T02:39:27.000Z",
       "message": "feat: add two comma-separated numbers",
-      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/1be36522a894a1bc67d274927c8530dc620be43c"
     },
     "stats": {
       "total": 8,
       "additions": 8,
       "deletions": 0,
+      "date": "2026-05-28"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "gabriel",
+    "commit": {
+      "date": "2026-05-28T02:42:36.000Z",
+      "message": "feat: sum multiple comma-separated numbers",
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 6,
+      "deletions": 5,
       "date": "2026-05-28"
     },
     "coverage": 0,
