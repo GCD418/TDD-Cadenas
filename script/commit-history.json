@@ -171,12 +171,12 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "775d31067e52b0dd50694340a6168845e3d1eb96",
     "author": "gabriel",
     "commit": {
       "date": "2026-05-28T03:25:51.000Z",
       "message": "fix: read test results from tdd_log.json instead of running jest in hook",
-      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/775d31067e52b0dd50694340a6168845e3d1eb96"
     },
     "stats": {
       "total": 77,
@@ -186,6 +186,25 @@
     },
     "coverage": 0,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "gabriel",
+    "commit": {
+      "date": "2026-05-28T03:28:30.000Z",
+      "message": "feat: support multi-character delimiters",
+      "url": "https://github.com/GCD418/TDD-Cadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 6,
+      "deletions": 3,
+      "date": "2026-05-28"
+    },
+    "coverage": 0,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

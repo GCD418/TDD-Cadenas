@@ -32,4 +32,8 @@ describe('Calculadora de Cadenas', () => {
   it('debe ignorar numeros mayores a 1000', () => {
     expect(sumarCadena('2, 1001')).toEqual(2);
   });
+
+  it('debe aceptar un delimitador de cualquier longitud', () => {
+    expect(sumarCadena('//[***] 1***2***3')).toEqual(6);
+  });
 });
