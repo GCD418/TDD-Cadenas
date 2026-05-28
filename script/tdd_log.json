@@ -56,9 +56,39 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a96a7cf57d4b0e59d034206e14a707c5606a205d",
     "commitName": "feat: sum multiple comma-separated numbers",
     "commitTimestamp": 1779936156849,
     "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1779936203921,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1779936220343,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1779936333846,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: accept dash as separator alongside comma",
+    "commitTimestamp": 1779936353489,
+    "testId": 5
   }
 ]
